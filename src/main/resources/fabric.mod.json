@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "blood-moon-horde",
+  "version": "1.0.0",
+  "name": "Blood Moon Horde",
+  "description": "Every 7 in-game days, a Blood Moon event triggers with increased mob spawns and a boss zombie",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.orca.bloodmoonhorde.BloodMoonHorde"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
